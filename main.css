@@ -1,18 +1,18 @@
 @font-face {
     font-family: headerFont;
-    src: url(./Fonts/bignoodletoooblique.ttf);
+    src: url("./Fonts/bignoodletoooblique.ttf");
 }
 @font-face {
     font-family: subHeaderFont;
-    src: url(./Fonts/bignoodletoo.ttf);
+    src: url("./Fonts/bignoodletoo.ttf");
 }
 @font-face {
     font-family: textFont;
-    src: url(./Fonts/futura.ttf);
+    src: url("./Fonts/futura.ttf");
 }
 @font-face {
     font-family: italicTextFont;
-    src: url(./Fonts/futurabq-demiboldoblique.otf);
+    src: url("./Fonts/futurabq-demiboldoblique.otf");
 }
 .main-text {
     position: absolute;
@@ -27,7 +27,7 @@
 }
 body {
       position: relative;
-      background-image: url("images/background-image.jpg");
+      background-image: url("./Images/background-image.jpg");
       height: 100%;
       background-position: center;
       background-repeat: no-repeat;
@@ -69,12 +69,12 @@ ul {
 div.col-sm-10 div {
     background-color: transparent;
 }
-#section1 {color: #fff; background-color: transparent;}
-#section2 {color: #fff; background-color: transparent;}
-#section3 {color: #fff; background-color: transparent;}
-#section4 {color: #fff; background-color: transparent;}
-#section5 {color: #fff; background-color: transparent;}
-#section6 {color: #fff; background-color: transparent;}
+#section1 {color: #FFFFFF; background-color: transparent;}
+#section2 {color: #FFFFFF; background-color: transparent;}
+#section3 {color: #FFFFFF; background-color: transparent;}
+#section4 {color: #FFFFFF; background-color: transparent;}
+#section5 {color: #FFFFFF; background-color: transparent;}
+#section6 {color: #FFFFFF; background-color: transparent;}
 h1 {
     font-family: headerFont;
     font-size: 5em;
