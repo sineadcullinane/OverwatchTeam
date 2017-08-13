@@ -1,0 +1,105 @@
+@font-face {
+    font-family: headerFont;
+    src: url(./Fonts/bignoodletoooblique.ttf);
+}
+@font-face {
+    font-family: subHeaderFont;
+    src: url(./Fonts/bignoodletoo.ttf);
+}
+@font-face {
+    font-family: textFont;
+    src: url(./Fonts/futura.ttf);
+}
+@font-face {
+    font-family: italicTextFont;
+    src: url(./Fonts/futurabq-demiboldoblique.otf);
+}
+.main-text {
+    position: absolute;
+    top: 0px;
+    width: 100%; 
+}
+.pageHeader {
+    font-family: headerFont;
+    font-size: 5em;
+    color: #FAA02E; 
+    background-color: transparent;
+}
+body {
+      position: relative;
+      background-image: url("images/background-image.jpg");
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+.affix {
+      top: 20px;
+}
+nav-pills {
+      top: 20px;
+      position: fixed;
+}
+.nav-pills > li > a {
+  font-size: 2em;
+  color: #FFFFFF;
+  background-color: transparent;
+  font-family: subHeaderFont;
+}
+.nav-pills > li.active > a {
+  color: #FAA02E;
+  font-size: 2.5em;
+  background-color: rgba(255, 255, 255, 0.1);
+  font-family: subHeaderFont;
+}
+.nav-pills > li > a:hover {
+    font-size: 2em;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-family: subHeaderFont;
+}
+.nav-pills > li.active > a:hover {
+    color: #FAA02E;
+    font-size: 2.5em;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-family: subHeaderFont;
+}
+ul {
+    float: left;
+}
+div.col-sm-10 div {
+    background-color: transparent;
+}
+#section1 {color: #fff; background-color: transparent;}
+#section2 {color: #fff; background-color: transparent;}
+#section3 {color: #fff; background-color: transparent;}
+#section4 {color: #fff; background-color: transparent;}
+#section5 {color: #fff; background-color: transparent;}
+#section6 {color: #fff; background-color: transparent;}
+h1 {
+    font-family: headerFont;
+    font-size: 5em;
+    color: #FAA02E;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+h2 {
+    font-family: headerFont;
+    font-size: 3.2em;
+}
+.pHeading {
+    font-family: italicTextFont;
+    font-size: 1.1em;
+    color: #218ffe;
+}
+p {
+    font-family: textFont;
+    font-size: 1.5em;
+}
+@media screen and (max-width: 810px) {
+    #section1, #section2, #section3, #section4, #section5, #section6  {
+        margin-left: 150px;
+    }
+}
+.spacing {
+  width: 100%;
+  height: 200px;
+}
