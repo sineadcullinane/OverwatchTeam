@@ -1,18 +1,18 @@
 @font-face {
     font-family: 'headerFont';
-    src: url("./Fonts/bignoodletoooblique.ttf") format('truetype');
+    src: url("./Fonts/BigNoodleTooOblique.ttf") format('truetype');
 }
 @font-face {
     font-family: 'subHeaderFont';
-    src: url("./Fonts/bignoodletoo.ttf") format('truetype');
+    src: url("./Fonts/BigNoodleToo.ttf") format('truetype');
 }
 @font-face {
     font-family: 'textFont';
-    src: url("./Fonts/futura.ttf") format('truetype');
+    src: url("./Fonts/Futura.ttf") format('truetype');
 }
 @font-face {
     font-family: 'italicTextFont';
-    src: url("./Fonts/futurabq-demiboldoblique.otf") format('opentype');
+    src: url("./Fonts/FuturaBQ-DemiBoldOblique.otf") format('opentype');
 }
 .main-text {
     position: absolute;
@@ -69,7 +69,7 @@ ul {
 div.col-sm-10 div {
     background-color: transparent;
 }
-#section1 {color: #FFFFFF; background-color: #ffffff;}
+#section1 {color: #FFFFFF; background-color: transparent;}
 #section2 {color: #FFFFFF; background-color: transparent;}
 #section3 {color: #FFFFFF; background-color: transparent;}
 #section4 {color: #FFFFFF; background-color: transparent;}
