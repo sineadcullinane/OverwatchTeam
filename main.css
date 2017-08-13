@@ -1,18 +1,18 @@
 @font-face {
-    font-family: headerFont;
-    src: url("./Fonts/bignoodletoooblique.ttf");
+    font-family: 'headerFont';
+    src: url("./Fonts/bignoodletoooblique.ttf") format('truetype');
 }
 @font-face {
-    font-family: subHeaderFont;
-    src: url("./Fonts/bignoodletoo.ttf");
+    font-family: 'subHeaderFont';
+    src: url("./Fonts/bignoodletoo.ttf") format('truetype');
 }
 @font-face {
-    font-family: textFont;
-    src: url("./Fonts/futura.ttf");
+    font-family: 'textFont';
+    src: url("./Fonts/futura.ttf") format('truetype');
 }
 @font-face {
-    font-family: italicTextFont;
-    src: url("./Fonts/futurabq-demiboldoblique.otf");
+    font-family: 'italicTextFont';
+    src: url("./Fonts/futurabq-demiboldoblique.otf") format('opentype');
 }
 .main-text {
     position: absolute;
@@ -20,7 +20,7 @@
     width: 100%; 
 }
 .pageHeader {
-    font-family: headerFont;
+    font-family: 'headerFont';
     font-size: 5em;
     color: #FAA02E; 
     background-color: transparent;
@@ -44,24 +44,24 @@ nav-pills {
   font-size: 2em;
   color: #FFFFFF;
   background-color: transparent;
-  font-family: subHeaderFont;
+  font-family: 'subHeaderFont';
 }
 .nav-pills > li.active > a {
   color: #FAA02E;
   font-size: 2.5em;
   background-color: rgba(255, 255, 255, 0.1);
-  font-family: subHeaderFont;
+  font-family: 'subHeaderFont';
 }
 .nav-pills > li > a:hover {
     font-size: 2em;
     background-color: rgba(255, 255, 255, 0.1);
-    font-family: subHeaderFont;
+    font-family: 'subHeaderFont';
 }
 .nav-pills > li.active > a:hover {
     color: #FAA02E;
     font-size: 2.5em;
     background-color: rgba(255, 255, 255, 0.1);
-    font-family: subHeaderFont;
+    font-family: 'subHeaderFont';
 }
 ul {
     float: left;
@@ -76,22 +76,22 @@ div.col-sm-10 div {
 #section5 {color: #FFFFFF; background-color: transparent;}
 #section6 {color: #FFFFFF; background-color: transparent;}
 h1 {
-    font-family: headerFont;
+    font-family: 'headerFont';
     font-size: 5em;
     color: #FAA02E;
     background-color: rgba(255, 255, 255, 0.1);
 }
 h2 {
-    font-family: headerFont;
+    font-family: 'headerFont';
     font-size: 3.2em;
 }
 .pHeading {
-    font-family: italicTextFont;
+    font-family: 'italicTextFont';
     font-size: 1.1em;
     color: #218ffe;
 }
 p {
-    font-family: textFont;
+    font-family: 'textFont';
     font-size: 1.5em;
 }
 @media screen and (max-width: 810px) {
